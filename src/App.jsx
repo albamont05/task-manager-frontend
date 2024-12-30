@@ -92,8 +92,8 @@ function App() {
             </main>
             <footer className="bg-gray-800">
                 <div className="mx-auto max-w-7xl px-4 py-3 sm:px-6 lg:px-8 flex justify-center items-center ">
-                    <h3 className="text-lg font-normal tracking-tight text-white mr-3">❤️ Developed by Luis Baez - Full Stack Developer</h3>
-                    <a href="https://www.linkedin.com/in/luis-alfredo-baez/" target="_blank" className="capitalize text-white text-lg font-semibold tracking-tight hover:text-teal-700">linkedin</a>
+                    <h3 className="text-xs md:text-lg font-normal tracking-tight text-white mr-3">❤️ Developed by Luis Baez - Full Stack Developer</h3>
+                    <a href="https://www.linkedin.com/in/luis-alfredo-baez/" target="_blank" className="capitalize text-white text-xs md:text-lg font-semibold tracking-tight hover:text-teal-700">linkedin</a>
                 </div>
             </footer>
         </div>
