@@ -52,11 +52,11 @@ const Task = ({ task }) => {
             <h3 className="font-bold text-black first-letter:uppercase">{task.title}</h3>
             <p className="text-sm text-black grow">{task.description}</p>
             <div className='flex justify-between items-center mt-4'>
-                <div className="text-black">
+                <div className="text-black text-xs sm:text-normal md:mr-0 mr-2 ">
                     {dateFormat(task.createdAt)}
                 </div>
                 <div className='flex justify-between items-center'>
-                    <div className='flex items-center justify-between text-black text-sm text-semibold mr-2'>
+                    <div className='flex items-center justify-between text-black text-xs sm:text-normal text-semibold mr-2'>
                         <input className="appearance-none h-4 w-4 border border-gray-300 rounded-md bg-amber-500 checked:bg-teal-600 focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer" type="checkbox" checked={task.completed} onChange={handleStatusChange} /> {task.completed ? 'Completada' : 'Pendiente'}
                     </div>
 
